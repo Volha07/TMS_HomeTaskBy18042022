@@ -2,13 +2,12 @@ import java.util.Scanner;
 
 public class Positive {
     public static void main(String[] args) {
-        int num;
         System.out.println("Enter the positive number: ");
-        Scanner input = new Scanner(System.in);
-
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         int sum = 0;
-        for(num = input.nextInt(); num != 0; num /= 10)        {
-            sum += (num % 10);
+        for (int i = 1;  i <= n; i++) {
+            sum += i;
         }
         System.out.println(sum + " ");
     }
