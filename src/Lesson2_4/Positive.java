@@ -1,3 +1,5 @@
+package Lesson2_4;
+
 import java.util.Scanner;
 
 public class Positive {

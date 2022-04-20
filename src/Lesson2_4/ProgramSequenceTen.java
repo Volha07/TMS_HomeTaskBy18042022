@@ -1,3 +1,5 @@
+package Lesson2_4;
+
 public class ProgramSequenceTen {
 
     public static void main(String[] args) {
